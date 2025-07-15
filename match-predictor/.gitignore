@@ -1,0 +1,48 @@
+# Python
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Python virtual environments
+env/
+
+# Python source and archives
+Python-3.12.0/
+Python-3.12.0.tgz*
+
+# Node
+node_modules/
+dist/
+build/
+npm-debug.log*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Frontend/Integration
+frontend/node_modules/
+integration-tests/node_modules/
+
+# Cypress
+integration-tests/cypress/screenshots/
+integration-tests/cypress/videos/
+integration-tests/cypress/log/
+
+# Environment files
+.env
+
+# Miscellaneous
+*.log
+
+# Ignore all __pycache__ recursively
+**/__pycache__/
+
+# Ignore all .pyc recursively
+**/*.pyc
