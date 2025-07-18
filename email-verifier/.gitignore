@@ -1,0 +1,71 @@
+# Build output
+build/
+*/build/
+.gradle/
+out/
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker-data/
+docker-compose.override.yml
+
+# Environment/config/secrets
+.env
+*.local
+*.secret
+*.bak
+
+# Logs and runtime
+*.log
+logs/
+*.pid
+
+# Test and coverage
+coverage/
+*.lcov
+*.coverage
+*.test.js.snap
+test-results/
+test-output/
+*.tmp
+
+# Node/npm (if any JS/TS frontend or test tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Devcontainer
+.devcontainer/.env
+.devcontainer/.venv
+
+# Generated resources
+resources/system_architecture.png
+resources/user_flow_diagram.png
+
+# Misc
+*.swp
+*.swo
+
+# Ignore top-level buildSrc output
+buildSrc/build/
+
+# Ignore gradle wrapper jar (if you want to keep it out of VCS)
+# gradle/wrapper/gradle-wrapper.jar
+
+# Already present in your .gitignore
+build
+.gradle
+.idea
+.docker-data
